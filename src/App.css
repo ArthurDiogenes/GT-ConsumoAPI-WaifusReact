@@ -93,27 +93,3 @@ button:hover {
   border-radius: 10px;
   transition: opacity 0.3s ease-in-out;
 }
-
-/* Spinner estilizado */
-.spinner {
-  width: 60px;
-  height: 60px;
-  border: 6px solid rgba(255, 255, 255, 0.1);
-  border-top: 6px solid #836fff;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Estilo para mensagens de erro */
-.fade-container p {
-  color: #ff6b6b;
-  font-weight: bold;
-  font-size: 1.1rem;
-  text-align: center;
-}
